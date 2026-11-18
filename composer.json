@@ -1,0 +1,14 @@
+{
+    "name": "iutnc/deefy",
+    "description": "Mini-projet Deefy - BUT Informatique",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "iutnc\\deefy\\": "src/classes/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-pdo": "*"
+    }
+}
